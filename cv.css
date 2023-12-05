@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(/images/sfondo-cv.jpg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.title-section {
+  color: white;
+  background-color: rgb(47, 47, 179);
+  border: solid;
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.section {
+  width: 600px;
+  border: solid;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0 20px 0;
+  margin: 40px 0 0 0;
+}
+
+.characteristic {
+  font-size: 20px;
+}
