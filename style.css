@@ -1,7 +1,6 @@
 body {
   margin: 0;
   height: 2500px;
-  position: relative;
   background-image: url(images/background.jpg);
   background-size: cover; 
   background-position: center; 
@@ -29,6 +28,44 @@ body {
 .dropdown {
   top: 60px;
   right: 60px;
+}
+
+.dropdown-menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa-github {
+  color: rgb(52, 40, 128);
+  font-size: 20px;
+}
+
+.fa-instagram {
+  font-size: 20px;
+  color: #9740c0;
+}
+
+.fa-linkedin {
+  font-size: 20px;
+  color: rgb(30,144,255);
+}
+
+.fa-x-twitter {
+  font-size: 20px;
+  color: black;
+}
+
+.container-social:hover {
+  .fa-github, .fa-instagram, .fa-linkedin, .fa-x-twitter, .tag-profile {
+    color: rgb(223, 148, 58);
+  }
 }
 
 .about-me {
