@@ -1,19 +1,38 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url(/images/sfondo-cv.jpg);
+  background-image: url(/assets/images/sfondo-cv.jpg);
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+  height: 1100px;
+}
+
+.slide {
+  position: fixed;
+  top: 150px;
+  right: 150px;
+  width: 700px;
+  height: 500px;
+}
+
+.carousel-inner {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  border-radius: 20px;
 }
 
 .title-section {
   color: white;
-  background-color: rgb(47, 47, 179);
+  background-color: rgb(29, 29, 158);
   border: solid;
   display: inline-block;
   padding: 10px 10px;
+  margin: 20px 0 15px 0;
 }
 
 .section {
@@ -23,7 +42,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 0 0 20px 0;
-  margin: 40px 0 0 0;
+  margin: 45px 0 0 150px;
 }
 
 .characteristic {

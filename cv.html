@@ -6,44 +6,64 @@
   <title>CV page</title>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/cv.css">
+  <link rel="stylesheet" href="/assets/css/cv.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div id="carouselExampleSlidesOnly" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/images/wal-street.jpg" class="d-block w-100" >
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/crypto.jpg" class="d-block w-100" >
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/FIRE-Movement.jpg" class="d-block w-100" >
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/amsterdam.webp" class="d-block w-100" >
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/blockchain.webp" class="d-block w-100" >
+      </div>
+    </div>
+  </div>
+
   <div class="cv">
-    <div>
-      <div class="section">
-        <h1 class="title-section">LEANGUAGE</h1>
-        <div>
-          <div class="characteristic"><strong>-Italian-</strong></div></br>
-          <div>Native</div>
-        </div></br>
-        <div>
-          <div class="characteristic"><strong>-English-</strong></div></br>
-          <div>B1-B2</div>
-        </div>
+    <div class="section">
+      <h1 class="title-section">LEANGUAGE</h1>
+      <div>
+        <div class="characteristic"><strong>-Italian-</strong></div></br>
+        <div>Native</div>
+      </div></br>
+      <div>
+        <div class="characteristic"><strong>-English-</strong></div></br>
+        <div>B1-B2</div>
       </div>
     </div>
   
     <div>
       <div class="section">
         <h1 class="title-section">HARD - SKILLS</h1>
-        <div>
-          <div class="characteristic"><strong>-SOLIDITY-</strong></div></br>
-        </div>
-        <div>
-          <div class="characteristic"><strong>-HTML-</strong></div></br>
-        </div>
-        <div>
-          <div class="characteristic"><strong>-CSS-</strong></div></br>
-        </div>
-        <div>
-          <div class="characteristic"><strong>-GitHub-</strong></div></br>
-        </div>
-        <div>
-          <div class="characteristic"><strong>-Canva-</strong></div></br>
+        <div class="characteristic">
+          <div>
+            <div><strong>-Solidity-</strong></div></br>
+          </div>
+          <div>
+            <div><strong>-HTML-</strong></div></br>
+          </div>
+          <div>
+            <div><strong>-CSS-</strong></div></br>
+          </div>
+          <div>
+            <div><strong>-GitHub-</strong></div></br>
+          </div>
+          <div>
+            <div><strong>-Canva-</strong></div></br>
+          </div>
         </div>
       </div>
     </div>
@@ -51,24 +71,37 @@
     <div>
       <div class="section">
         <h1 class="title-section">SOFT - SKILLS</h1>
-        <div>
-          <div class="characteristic"><strong>-SOLIDITY-</strong></div></br>
-        </div>
-        <div>
-          <div class="characteristic"><strong>-HTML-</strong></div></br>
-        </div>
-        <div>
-          <div class="characteristic"><strong>-CSS-</strong></div></br>
-        </div>
-        <div>
-          <div class="characteristic"><strong>-GitHub-</strong></div></br>
-        </div>
-        <div>
-          <div class="characteristic"><strong>-Canva-</strong></div></br>
+        <div class="characteristic">
+          <div>
+            <div><strong>-Team Work-</strong></div></br>
+          </div>
+          <div>
+            <div><strong>-Problem Solving-</strong></div></br>
+          </div>
+          <div>
+            <div><strong>-Critical Thinking-</strong></div></br>
+          </div>
+          <div>
+            <div><strong>-Clear Comunication-</strong></div></br>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('#carouselExampleSlidesOnly').carousel({
+        interval: 5000,
+        cycle: true,
+      });
+    });
+  </script>
   
 </body>
 </html>
