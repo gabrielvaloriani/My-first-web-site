@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  height: 2500px;
+  height: 1600px;
   background-image: url(/assets/images/background.jpg);
   background-size: cover; 
   background-position: center; 
@@ -121,6 +121,16 @@ body {
   box-shadow: 20px 20px 20px -5px rgba(0, 0, 0, 0.7);
   margin: 20px 0 0 0;
   border-radius: 20px;
+  transition: trasform 0.3s ease;
+}
+
+.project-image:active {
+  transition: transform 0.3s ease; 
+  z-index: 1; 
+}
+
+.project-image:hover {
+  transform: none;
 }
 
 .accordion {
@@ -132,6 +142,3 @@ body {
 .guide-to-download {
   text-decoration: underline;
 }
-
-
-

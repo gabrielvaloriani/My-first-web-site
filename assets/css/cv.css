@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
-  height: 1100px;
+  height: 1250px;
 }
 
 .slide {
@@ -42,7 +42,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 0 0 20px 0;
-  margin: 45px 0 0 150px;
+  margin: 45px 0 0 200px;
 }
 
 .characteristic {
