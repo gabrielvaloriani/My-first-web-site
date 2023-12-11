@@ -10,7 +10,8 @@ body {
 .description {
   display: flex;
   justify-content: flex-end;
-  margin: 200px 80px;
+  width: 1600px;
+  margin: 200px
 }
 
 .image-chart {
@@ -18,17 +19,17 @@ body {
 }
 
 .chart {
-  width: 500px;
+  width: 510px;
   border-radius: 20px 0 0 20px;
 }
 
 .my-story {
   justify-content: flex-start;
-  width: 1000px;
-  height: 303px;
+  width: 1050px;
+  height: 320px;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.3);
-  padding: 15px 15px;
+  padding: 10px 15px;
   border-radius: 0 20px 20px 0;
   font-family: Arial;
 }
