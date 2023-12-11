@@ -62,12 +62,6 @@ body {
   color: black;
 }
 
-.container-social:hover {
-  .fa-github, .fa-instagram, .fa-linkedin, .fa-x-twitter, .tag-profile {
-    color: rgb(223, 148, 58);
-  }
-}
-
 .about-me {
   display: flex;
   position: relative;
@@ -87,8 +81,8 @@ body {
 .myphoto {
   width: 300px;
   position: absolute;
-  top: -20px;
-  left: 70px;
+  top: -180px;
+  left: 101px;
 }
 
 .personal-description {

@@ -25,10 +25,10 @@ body {
 .my-story {
   justify-content: flex-start;
   width: 1000px;
-  height: 325px;
+  height: 303px;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.3);
-  padding: 25px 15px;
+  padding: 15px 15px;
   border-radius: 0 20px 20px 0;
   font-family: Arial;
 }
