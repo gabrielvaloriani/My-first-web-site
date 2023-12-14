@@ -10,7 +10,8 @@ body {
 .description {
   display: flex;
   justify-content: flex-end;
-  width: 1600px;
+  max-width: 1600px;
+  min-width: 800px;
   margin: 200px
 }
 
