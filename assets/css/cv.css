@@ -1,50 +1,16 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url(/assets/images/sfondo-cv.jpg);
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: white;
-  height: 1250px;
-}
-
-.slide {
-  max-width: 700px;
-  min-width: 450px;
-  max-height: 500px;
-  min-height: 200px;
-}
-
-.carousel-inner {
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.carousel-item {
-  border-radius: 20px;
-}
-
-.title-section {
-  color: white;
-  background-color: rgb(29, 29, 158);
-  border: solid;
-  display: inline-block;
-  padding: 10px 10px;
-  margin: 20px 0 15px 0;
 }
 
 .section {
-  max-width: 600px;
-  min-width: 200px;
-  border: solid;
-  border-radius: 20px;
-  justify-content: center;
-  text-align: center;
-  padding: 0 0 20px 0;
-  margin: 45px 0 0 200px;
+  margin: 0 0 100px 0;
 }
 
-.characteristic {
-  font-size: 20px;
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-1 {
+  margin: 50px 150px;
 }
