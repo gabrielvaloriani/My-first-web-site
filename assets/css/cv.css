@@ -4,13 +4,16 @@ body {
 
 .section {
   margin: 0 0 100px 0;
+
 }
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  max-width: 1000px;
+  min-width: 100px;
 }
 
 .section-1 {
-  margin: 50px 150px;
+  margin: 50px;
 }
