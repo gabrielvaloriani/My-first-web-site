@@ -2,9 +2,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.title {
+  padding: 0 0 0 45px;
+}
+
 .section {
   margin: 0 0 100px 0;
-
 }
 
 .container {
