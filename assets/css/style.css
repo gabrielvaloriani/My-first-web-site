@@ -8,6 +8,10 @@ body {
   padding: 50px 50px 0 50px;
 }
 
+.company-name {
+  border-radius: 10px;
+}
+
 .fa-github {
   color: rgb(52, 40, 128);
   font-size: 20px;
@@ -30,6 +34,7 @@ body {
 
 .container {
   padding: 20px;
+  margin: 120px;
 }
 
 .about-me {
@@ -43,7 +48,7 @@ body {
   padding: 15px 15px 15px 15px;
   color: black;
   font-weight: bold;
-  background-color: rgba(238, 238, 238, 0.7);
+  background-color: rgba(241, 241, 241, 0.7);
   border-radius: 5px;
 }
 
@@ -58,7 +63,7 @@ body {
 }
 
 .project {
-  margin-right: 150px;
+  margin-right: 350px;
 }
 
 .project-image-container {
@@ -89,12 +94,12 @@ body {
   margin-right: 200px;
   color: black;
   font-weight: bold;
-  background-color: rgba(238, 238, 238, 0.7);
+  background-color: rgba(241, 241, 241, 0.7);
   padding: 20px 15px 15px 15px;
   border-radius: 5px;
 }
 
 .chart {
   border-radius: 10px;
+  box-shadow: 20px 20px 20px -5px rgba(0, 0, 0, 0.7);
 }
-
