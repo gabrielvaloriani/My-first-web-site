@@ -1,22 +1,39 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .title {
-  margin: 0 0 0 45px;
+  margin: 20px 0 0 5px;
+  color: rgb(17, 17, 202);
 }
 
 .section {
   margin: 0 0 100px 0;
+  background-color: rgba(201, 201, 201, 0.7);
+  padding: 1px 20px 10px 10px;
+  border-radius: 10px;
 }
 
 .container {
   display: flex;
-  justify-content: flex-start;
   max-width: 1000px;
   min-width: 100px;
 }
 
 .section-1 {
-  margin: 50px;
+  margin: 80px 180px 0 0;
+}
+
+.section-2 {
+  margin: 80px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .container {display: block; margin-left: 70px;}
+  .section-2 {display: inline-block;}
 }
