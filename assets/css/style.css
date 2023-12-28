@@ -38,11 +38,11 @@ body {
 
 .container {
   padding: 20px;
-  margin: 80px;
+  margin-top: 50px;
 }
 
 .about-me {
-  max-width: 800px;
+  max-width: 900px;
   min-width: 200px;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .project-image {
-  box-shadow: 20px 20px 20px -5px rgba(0, 0, 0, 0.7);
+  box-shadow: 20px 20px 20px 5px rgba(0, 0, 0, 0.7);
   border-radius: 5px;
 }
 
@@ -88,31 +88,37 @@ body {
 }
 
 .description {
+  margin-top: 190px;
   display: flex;
-  margin: 200px 0 0 0;
+  justify-content: space-between;
+  padding: 20px 40px 15px 20px;
+  background-color: rgba(241, 241, 241, 0.7);
+  box-shadow: 20px 30px 20px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
 }
 
 .my-story {
   font-family: Arial;
   margin-right: 200px;
+  max-width: 800px;
+  min-width: 200px;
   color: black;
   font-weight: bold;
-  background-color: rgba(241, 241, 241, 0.7);
-  padding: 20px 15px 15px 15px;
   border-radius: 5px;
 }
 
 .chart {
   border-radius: 10px;
   box-shadow: 20px 20px 20px -5px rgba(0, 0, 0, 0.7);
+  width: 400px;
+  margin-top: 100px;
 }
 
-@media (max-width: 768px) {
-  .head-bar {display: inline-block;width: 420px;}
-  .dropdown {margin: 25px 0 0 60px;}
+@media (max-width: 1008px) {
+  .head-bar {display: inline-block;width:100%;}
+  .company-name {width: 100%;}
   .projects-container{display: inline-block;}
-  .project-image {width: 370px;margin-top: 25px;}
-  .description {display: inline-block;}
-  .my-story {width: 370px;margin-top: -35px;}
-  .chart {width: 370px;margin-top: 25px;}
+  .project-image {margin-top: 25px;width: 200%;}
+  .description {display: inline-block;width: 80%;padding-left: 80px;}
+  .chart {width: 100%;margin: 20px 0 0 -20px;}
 }
