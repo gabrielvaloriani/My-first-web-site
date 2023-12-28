@@ -88,7 +88,7 @@ body {
 }
 
 .description {
-  margin-top: 190px;
+  margin-top: 150px;
   display: flex;
   justify-content: space-between;
   padding: 20px 40px 15px 20px;
@@ -111,14 +111,16 @@ body {
   border-radius: 10px;
   box-shadow: 20px 20px 20px -5px rgba(0, 0, 0, 0.7);
   width: 400px;
-  margin-top: 100px;
+  margin: 100px 50px 0 0;
 }
 
-@media (max-width: 1008px) {
-  .head-bar {display: inline-block;width:100%;}
-  .company-name {width: 100%;}
+@media (max-width: 768px) {
+  .head-bar {display: inline-block;}
+  .dropdown {padding-top: 40px;}
+  .company-name {width: 100%;margin-top: 5px;}
+  .about-me {width: 100%;}
   .projects-container{display: inline-block;}
   .project-image {margin-top: 25px;width: 200%;}
-  .description {display: inline-block;width: 80%;padding-left: 80px;}
-  .chart {width: 100%;margin: 20px 0 0 -20px;}
+  .description {display: inline-block;width: 100%;padding-left: 50px;}
+  .chart {width: 100%;margin: 20px 0 0 0;}
 }
