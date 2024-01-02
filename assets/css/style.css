@@ -1,13 +1,20 @@
 body {
   margin: 0;
+  height: 1800px;
+  position: relative;
 }
 
 .head-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
-  padding: 40px 80px 40px 20px;
+  padding: 35px 80px 40px 20px;
   background-color: white;
-  box-shadow: 20px 30px 20px -5px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 20px 10px -5px rgba(0, 0, 0, 0.3);
+  z-index: 5;
 }
 
 .company-name {
@@ -38,7 +45,7 @@ body {
 
 .container {
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 170px;
 }
 
 .about-me {
@@ -62,7 +69,7 @@ body {
 .projects-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  margin: 170px 0 300px 0;
 }
 
 .project {
@@ -88,13 +95,13 @@ body {
 }
 
 .description {
-  margin-top: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  justify-content: space-between;
-  padding: 20px 40px 15px 20px;
-  background-color: rgba(241, 241, 241, 0.7);
-  box-shadow: 20px 30px 20px 5px rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
+  padding: 10px 40px 25px 100px;
+  background-color: rgba(241, 241, 241, 0.8);
 }
 
 .my-story {
@@ -110,17 +117,18 @@ body {
 .chart {
   border-radius: 10px;
   box-shadow: 20px 20px 20px -5px rgba(0, 0, 0, 0.7);
-  width: 400px;
-  margin: 100px 50px 0 0;
+  max-width: 600px;
+  margin: 40px 100px 0 0;
 }
 
-@media (max-width: 768px) {
-  .head-bar {display: inline-block;}
+@media (max-width: 768px) { 
+  .head-bar {display: inline-block;position: static;}
   .dropdown {padding-top: 40px;}
   .company-name {width: 100%;margin-top: 5px;}
   .about-me {width: 100%;}
-  .projects-container{display: inline-block;}
-  .project-image {margin-top: 25px;width: 200%;}
-  .description {display: inline-block;width: 100%;padding-left: 50px;}
-  .chart {width: 100%;margin: 20px 0 0 0;}
+  .projects-container{display: flex;flex-direction: column;align-items: center;}
+  .project {margin-right: 0;}
+  .project-image {margin-top: 25px;width: 100%;}
+  .description {position: static; display: flex;flex-direction: column;padding-left: 50px;}
+  .chart {width: 100%;margin: 30px 0;}
 }
