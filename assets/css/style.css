@@ -119,7 +119,7 @@ body {
 }
 
 @media (max-width: 768px) { 
-  .head-bar {display: inline-block;position: static;}
+  .head-bar {display: inline-block;position: static;width: 100%;}
   .dropdown {padding-top: 40px;}
   .company-name {width: 100%;margin-top: 5px;}
   .about-me {width: 100%;}
