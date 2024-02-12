@@ -48,6 +48,6 @@ Each project on the page has an icon and a specific description. </br>Clicking o
 ## Author Info
 
 - Twitter - [@GabrielValorianiFranco](https://twitter.com/GabrielValoria)
-- Linekind - [GabrielValoriani](https://www.linkedin.com/in/gabriel-valoriani-9971a3291/)
+- Linkedin - [GabrielValoriani](https://www.linkedin.com/in/gabriel-valoriani-9971a3291/)
 
 [Back To The Top](#My-first-web-site)
